@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a new capability without representing roadmap work as shipped.
+title: '[Feature]: '
+labels:
+- enhancement
+- triage
+body:
+- type: textarea
+  id: problem
+  attributes:
+    label: Problem
+    description: What user problem should this solve?
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Proposal
+    description: Describe the requested behavior.
+  validations:
+    required: true
+- type: dropdown
+  id: requested-status
+  attributes:
+    label: Expected status
+    options:
+    - beta
+    - roadmap
+  validations:
+    required: true
