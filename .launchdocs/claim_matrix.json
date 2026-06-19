@@ -1,0 +1,165 @@
+{
+  "schema": "claim_matrix_v1",
+  "claims": [
+    {
+      "claim_id": "C0001",
+      "claim_text": "RepoPush Demo turns one product brief into a review-ready GitHub documentation pack and safe PR push.",
+      "source_atom_id": "CA0001",
+      "source_field": "one_line_pitch",
+      "status": "launch",
+      "used_in_files": "README.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0002",
+      "claim_text": "Teams often ship repositories with incomplete README files, missing support paths, inconsistent roadmap claims, and issue templates that slow down triage.",
+      "source_atom_id": "CA0002",
+      "source_field": "problem_solved",
+      "status": "launch",
+      "used_in_files": "README.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0003",
+      "claim_text": "GitHub Pack compiler",
+      "source_atom_id": "CA0003",
+      "source_field": "features",
+      "status": "launch",
+      "used_in_files": "README.md;docs/EXAMPLES.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0004",
+      "claim_text": "Generates README, support, security, contributing, docs, and issue-template files from one product brief.",
+      "source_atom_id": "CA0004",
+      "source_field": "features[].benefit",
+      "status": "launch",
+      "used_in_files": "README.md;docs/EXAMPLES.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0005",
+      "claim_text": "ClaimMatrix consistency checks",
+      "source_atom_id": "CA0005",
+      "source_field": "features",
+      "status": "launch",
+      "used_in_files": "README.md;docs/EXAMPLES.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0006",
+      "claim_text": "Tracks launch, beta, roadmap, and deprecated claims across generated files.",
+      "source_atom_id": "CA0006",
+      "source_field": "features[].benefit",
+      "status": "launch",
+      "used_in_files": "README.md;docs/EXAMPLES.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0007",
+      "claim_text": "Repository topic suggestions",
+      "source_atom_id": "CA0007",
+      "source_field": "features",
+      "status": "beta",
+      "used_in_files": "README.md;ROADMAP.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0008",
+      "claim_text": "Suggests GitHub topics based on product type and generated content.",
+      "source_atom_id": "CA0008",
+      "source_field": "features[].benefit",
+      "status": "beta",
+      "used_in_files": "README.md;ROADMAP.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0009",
+      "claim_text": "GitHub Repo Importer",
+      "source_atom_id": "CA0009",
+      "source_field": "features",
+      "status": "roadmap",
+      "used_in_files": "ROADMAP.md",
+      "risk_level": "high",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0010",
+      "claim_text": "Will inspect an existing repository and infer missing product brief fields.",
+      "source_atom_id": "CA0010",
+      "source_field": "features[].benefit",
+      "status": "roadmap",
+      "used_in_files": "ROADMAP.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0011",
+      "claim_text": "Legacy HTML exporter",
+      "source_atom_id": "CA0011",
+      "source_field": "features",
+      "status": "deprecated",
+      "used_in_files": "CHANGELOG.md",
+      "risk_level": "high",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0012",
+      "claim_text": "Previously exported a static HTML launch page.",
+      "source_atom_id": "CA0012",
+      "source_field": "features[].benefit",
+      "status": "deprecated",
+      "used_in_files": "CHANGELOG.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0013",
+      "claim_text": "{\"email\": \"support@example.com\", \"response_time\": \"Community issues are triaged weekly; security reports follow SECURITY.md.\"}",
+      "source_atom_id": "CA0022",
+      "source_field": "support_policy",
+      "status": "launch",
+      "used_in_files": "SUPPORT.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0014",
+      "claim_text": "{\"email\": \"security@example.com\", \"supported_versions\": \"Latest release candidate and active beta versions when marked beta.\", \"disclosure\": \"Report privately first; maintainers will coordinate disclosure after validation.\"}",
+      "source_atom_id": "CA0023",
+      "source_field": "security_policy",
+      "status": "launch",
+      "used_in_files": "SECURITY.md",
+      "risk_level": "high",
+      "requires_user_confirmation": true
+    },
+    {
+      "claim_id": "C0015",
+      "claim_text": "0.3.0-rc1 - 2026-06-17 - GitHub Pack compiler, validators, dry run, local git installer, and PAT API installer RC.",
+      "source_atom_id": "CA0024",
+      "source_field": "release_notes[1]",
+      "status": "launch",
+      "used_in_files": "CHANGELOG.md",
+      "risk_level": "medium",
+      "requires_user_confirmation": false
+    },
+    {
+      "claim_id": "C0016",
+      "claim_text": "GitHub Repo Importer",
+      "source_atom_id": "CA0027",
+      "source_field": "features[status=roadmap]",
+      "status": "roadmap",
+      "used_in_files": "ROADMAP.md",
+      "risk_level": "high",
+      "requires_user_confirmation": true
+    }
+  ]
+}

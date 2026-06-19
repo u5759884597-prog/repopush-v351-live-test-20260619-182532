@@ -1,0 +1,124 @@
+{
+  "schema": "launchdocs_manifest_v1",
+  "pack_id": "github:repopush-demo",
+  "product_hash": "8ef23fbaa825dd8ce1466b0652a2b0128cc69503807a85598a672345d3b9e51b",
+  "pack_hash": "d09cd804f7fa5011e067ceccc7708dc66399aef7903ae449455b41f902e5a696",
+  "generated_at": "2026-06-19T18:41:05Z",
+  "generator_version": "3.5.1-rc1",
+  "installed_files": [
+    {
+      "path": "README.md",
+      "hash": "1cfe5c0f5a9a409b3ce02ebe5486f4ba8530dd262c72e6b71b30d688a54becf3",
+      "source_doc": "github_readme",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "LICENSE",
+      "hash": "184c0bfa4aca6ea02c68323cc724644761ca8881d32f1ae40bd0df2ef2f12bcd",
+      "source_doc": "github_license",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "hash": "65d0eabc909f31957541365ff686727c27d220d1080cb61b9abd2c36a248d7ee",
+      "source_doc": "github_contributing",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "hash": "a38ba163a3a08df41c2a9ea96435e76f84cf968b5acf915e95e0188d125f17a8",
+      "source_doc": "github_code_of_conduct",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "SECURITY.md",
+      "hash": "7752d7bc579c153dc706906a6e9e20c0fd1d6cec58c49636e973ae89ea95705d",
+      "source_doc": "github_security",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "SUPPORT.md",
+      "hash": "9368b78661e97e3f56d503cd6319d6592926ba915cd608c7998ff3fde662fdfa",
+      "source_doc": "github_support",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "ROADMAP.md",
+      "hash": "f25e83ee958c015996bdeab2ca3742c4b51abc7886edc3b74948cfe8a1e00ebf",
+      "source_doc": "github_roadmap",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "hash": "da0727588378b85ff5940485226e01eb865eaec99b11ee452f35c51590f0a255",
+      "source_doc": "github_changelog",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "hash": "8bc61a0af688c9d50830cb87e0a6f5530f73a6e87f083af5cb02dd5c04d50848",
+      "source_doc": "github_quickstart",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "docs/FAQ.md",
+      "hash": "5acc4385e1f913ba0d6b7ebd44e547717fb7058da8242715a94a4197ce413bff",
+      "source_doc": "github_faq",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": "docs/EXAMPLES.md",
+      "hash": "af3b18de3711f25237a5548fbae82b300d9a5160bd91d48241abe8f9e7bf0582",
+      "source_doc": "github_examples",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "hash": "e0e5bc98d023c3b7226a37992661219cf043d5c54bf87373d1b6df00c33aa8df",
+      "source_doc": "github_issue_form_bug",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "hash": "031c1e325edd3f6489aeb667c0c9474944b2ac7f164e95bc315c408cfe5e874e",
+      "source_doc": "github_issue_form_feature",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.yml",
+      "hash": "60cc98d06a1ca2a3a66455e3d9024cd7130e215f947c4f662f329d82bf58fe74",
+      "source_doc": "github_issue_form_question",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "hash": "be6ecfb48efe268701ef96691608fa085a5a003cc8b3f19b8f180566f3a23b64",
+      "source_doc": "github_issue_form_config",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "hash": "9998ec254dd898fdab29aeefc861787023969d07e5cf8523feac2b64bd496d9f",
+      "source_doc": "github_pr_template",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".launchdocs/manifest.json",
+      "hash": "9df0cd40755fcf0f184a7db94c7e7ec3cd4a707db4d749e568a4e9ee25c93800",
+      "source_doc": "launchdocs_manifest",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".launchdocs/claim_matrix.json",
+      "hash": "23375df10cbeb78fb81aa28c4abd28411073741490128949bcd151f7d2704b7e",
+      "source_doc": "launchdocs_claim_matrix",
+      "managed_by_launchdocs": true
+    },
+    {
+      "path": ".launchdocs/validation_report.json",
+      "hash": "eb46bf1def2365affdabfd43e8a946610543cfd7357196654c92d87a6c7de24f",
+      "source_doc": "launchdocs_validation_report",
+      "managed_by_launchdocs": true
+    }
+  ]
+}

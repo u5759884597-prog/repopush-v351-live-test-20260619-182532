@@ -1,0 +1,332 @@
+{
+  "schema": "validation_report_v1",
+  "generated_at": "2026-06-19T18:41:05Z",
+  "pack_path": "output_pack/github",
+  "summary": {
+    "blockers": 0,
+    "warnings": 1,
+    "infos": 33,
+    "passed": true
+  },
+  "findings": [
+    {
+      "validator": "ReadmeFirstScreenValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "README first screen answers what, why, and how.",
+      "recommendation": "Keep this first-screen structure in future edits.",
+      "source": "first_screen_answers_what_why_how",
+      "auto_fixable": false
+    },
+    {
+      "validator": "QuickstartCompletenessValidator",
+      "severity": "info",
+      "file": "docs/QUICKSTART.md",
+      "message": "Quickstart contains 1-5 steps.",
+      "recommendation": "Keep the quickstart compact.",
+      "source": "quickstart_under_5_steps",
+      "auto_fixable": false
+    },
+    {
+      "validator": "YamlParseValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "message": "YAML parsed successfully.",
+      "recommendation": "No action needed.",
+      "source": "issue_form_yaml_parse",
+      "auto_fixable": false
+    },
+    {
+      "validator": "YamlParseValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE/config.yml",
+      "message": "YAML parsed successfully.",
+      "recommendation": "No action needed.",
+      "source": "issue_form_yaml_parse",
+      "auto_fixable": false
+    },
+    {
+      "validator": "YamlParseValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "message": "YAML parsed successfully.",
+      "recommendation": "No action needed.",
+      "source": "issue_form_yaml_parse",
+      "auto_fixable": false
+    },
+    {
+      "validator": "YamlParseValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE/question.yml",
+      "message": "YAML parsed successfully.",
+      "recommendation": "No action needed.",
+      "source": "issue_form_yaml_parse",
+      "auto_fixable": false
+    },
+    {
+      "validator": "GitHubIssueFormSchemaValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE",
+      "message": "Issue forms satisfy required schema fields.",
+      "recommendation": "No action needed.",
+      "source": "github_issue_form_schema",
+      "auto_fixable": false
+    },
+    {
+      "validator": "IssueFormRequiredFieldsValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE",
+      "message": "Issue forms satisfy required schema fields.",
+      "recommendation": "No action needed.",
+      "source": "issue_form_required_fields",
+      "auto_fixable": false
+    },
+    {
+      "validator": "ClaimConsistencyValidator",
+      "severity": "info",
+      "file": "shared/claim_matrix.json",
+      "message": "Cross-document claim matrix is consistent for launch/beta/roadmap/deprecated status labels.",
+      "recommendation": "Continue updating ClaimMatrix when product claims change.",
+      "source": "claim_consistency",
+      "auto_fixable": false
+    },
+    {
+      "validator": "RoadmapAsLaunchValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "Roadmap features are not marked as launch features.",
+      "recommendation": "No action needed.",
+      "source": "roadmap_status_consistency",
+      "auto_fixable": false
+    },
+    {
+      "validator": "DeprecatedFeatureLeakValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "Deprecated features do not appear in primary selling content.",
+      "recommendation": "No action needed.",
+      "source": "deprecated_feature_leak",
+      "auto_fixable": false
+    },
+    {
+      "validator": "MissingDemoAssetValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "Demo GIF asset is referenced.",
+      "recommendation": "Verify the asset URL remains accessible.",
+      "source": "demo_asset_present_or_missing_asset_warning",
+      "auto_fixable": false
+    },
+    {
+      "validator": "MissingScreenshotValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "Screenshot asset is referenced.",
+      "recommendation": "No action needed.",
+      "source": "missing_screenshot",
+      "auto_fixable": false
+    },
+    {
+      "validator": "MissingLogoValidator",
+      "severity": "warning",
+      "file": "README.md",
+      "message": "No logo asset supplied.",
+      "recommendation": "Optional: add a logo for stronger repository identity.",
+      "source": "missing_logo",
+      "auto_fixable": false
+    },
+    {
+      "validator": "GitHubReadmeGrowthValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "README benchmark score: 100/100",
+      "recommendation": "Use matched patterns and suggestions to improve GitHub conversion quality.",
+      "source": "good_bad_benchmark_score",
+      "auto_fixable": false
+    },
+    {
+      "validator": "GitHubTopicsSuggestionValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "Suggested GitHub topics: developer_tool, documentation, github-pack, repopush",
+      "recommendation": "Add relevant repository topics manually after PR review.",
+      "source": "github_topics_suggestion",
+      "auto_fixable": false
+    },
+    {
+      "validator": "ContributionFrictionValidator",
+      "severity": "info",
+      "file": "CONTRIBUTING.md",
+      "message": "Contribution path includes issue, PR, checklist, and review guidance.",
+      "recommendation": "No action needed.",
+      "source": "contribution_friction",
+      "auto_fixable": false
+    },
+    {
+      "validator": "IssueTriageQualityValidator",
+      "severity": "info",
+      "file": ".github/ISSUE_TEMPLATE",
+      "message": "Issue forms include useful triage cues.",
+      "recommendation": "No action needed.",
+      "source": "issue_triage_quality",
+      "auto_fixable": false
+    },
+    {
+      "validator": "PlatformSubmissionChecklistValidator",
+      "severity": "info",
+      "file": "platform_specs/github.yaml",
+      "message": "GitHub submission checklist minimum is present.",
+      "recommendation": "Keep README, license, support, security, issue forms, and PR template in the default pack.",
+      "source": "platform_submission_checklist",
+      "auto_fixable": false
+    },
+    {
+      "validator": "RequiredSubmissionFieldsValidator",
+      "severity": "info",
+      "file": "shared/product_core.json",
+      "message": "Required platform submission fields are present.",
+      "recommendation": "No action needed.",
+      "source": "required_submission_fields",
+      "auto_fixable": false
+    },
+    {
+      "validator": "ReadmeSubmissionCompletenessValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "README contains the core submission-readiness signals.",
+      "recommendation": "No action needed.",
+      "source": "readme_submission_completeness",
+      "auto_fixable": false
+    },
+    {
+      "validator": "SupportSecurityCompletenessValidator",
+      "severity": "info",
+      "file": "SUPPORT.md, SECURITY.md",
+      "message": "Support and security submission policies are present.",
+      "recommendation": "No action needed.",
+      "source": "support_security_completeness",
+      "auto_fixable": false
+    },
+    {
+      "validator": "ClaimStatusBoundaryValidator",
+      "severity": "info",
+      "file": "shared/claim_matrix.json",
+      "message": "Claim status boundaries are normalized.",
+      "recommendation": "No action needed.",
+      "source": "claim_status_boundary",
+      "auto_fixable": false
+    },
+    {
+      "validator": "LaunchRoadmapBoundaryValidator",
+      "severity": "info",
+      "file": "README.md",
+      "message": "Launch, beta, roadmap, and deprecated boundaries are preserved in README.",
+      "recommendation": "No action needed.",
+      "source": "launch_roadmap_boundary",
+      "auto_fixable": false
+    },
+    {
+      "validator": "MarketplaceReadinessScoreValidator",
+      "severity": "info",
+      "file": "RepoPush checklist",
+      "message": "Platform submission readiness score: 100/100 (required_files, brief_fields, readme, assets, support_security, claim_boundaries)",
+      "recommendation": "Treat this as a pre-submit checklist score, not as automatic approval.",
+      "source": "marketplace_readiness_score",
+      "auto_fixable": false
+    },
+    {
+      "validator": "InstallPlanValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "No install plan provided during pack validation.",
+      "recommendation": "Run plan-install before install-github.",
+      "source": "install_plan",
+      "auto_fixable": false
+    },
+    {
+      "validator": "BranchSafetyValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "Branch safety check passed or no branch context provided.",
+      "recommendation": "Installer still refuses default-branch writes.",
+      "source": "branch_safety",
+      "auto_fixable": false
+    },
+    {
+      "validator": "NoSilentOverwritePolicyValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "No install actions provided for overwrite policy validation.",
+      "recommendation": "Run plan-install against a target repo to verify overwrite behavior.",
+      "source": "no_silent_overwrite_policy",
+      "auto_fixable": false
+    },
+    {
+      "validator": "MergeFragmentPlanSafetyValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "No merge fragments needed because no manual-review conflicts are present.",
+      "recommendation": "No action needed.",
+      "source": "merge_fragment_plan_safety",
+      "auto_fixable": false
+    },
+    {
+      "validator": "ReviewHandoffSafetyValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "No PR review handoff required because no manual-review conflicts are present.",
+      "recommendation": "No action needed.",
+      "source": "review_handoff_safety",
+      "auto_fixable": false
+    },
+    {
+      "validator": "ResolutionRerunGateValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "No install plan provided for resolution-rerun gate validation.",
+      "recommendation": "Run install-github or plan-install to verify manifest withholding behavior.",
+      "source": "resolution_rerun_gate",
+      "auto_fixable": false
+    },
+    {
+      "validator": "FileConflictValidator",
+      "severity": "info",
+      "file": "install_plan.json",
+      "message": "No file conflicts recorded in install plan.",
+      "recommendation": "No action needed.",
+      "source": "file_conflict",
+      "auto_fixable": false
+    },
+    {
+      "validator": "IdempotencyValidator",
+      "severity": "info",
+      "file": ".launchdocs/manifest.json",
+      "message": "Manifest includes hashes for idempotent updates.",
+      "recommendation": "Second runs can compare managed file hashes.",
+      "source": "idempotency",
+      "auto_fixable": false
+    },
+    {
+      "validator": "SecretScanValidator",
+      "severity": "info",
+      "file": "output_pack/github",
+      "message": "Secret scan passed for pack files.",
+      "recommendation": "Continue keeping tokens out of pack, logs, and evidence.",
+      "source": "secret_scan",
+      "auto_fixable": false
+    }
+  ],
+  "benchmark_score": 100,
+  "matched_good_patterns": [
+    "contribution_path",
+    "demo",
+    "examples",
+    "first_screen",
+    "install",
+    "license",
+    "limitations",
+    "quickstart"
+  ],
+  "matched_bad_patterns": [],
+  "improvement_suggestions": []
+}
